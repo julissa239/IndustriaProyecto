@@ -12,19 +12,18 @@ import { ProductosComponent } from './productos/productos.component';
 import { RegistroComponent } from './registro/registro.component';
 
 const routes: Routes = [
-  { path: '', component: LandingComponent },
-  { path: 'login', component: LoginComponent },
-  { path: 'registro', component: RegistroComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'pedidos', component: PedidosComponent },
-  { path: 'productos', component: ProductosComponent },
-  { path: 'carrito', component: CarritoComponent },
-  { path: 'perfil', component: PerfilComponent },
-  { path: 'empresas', component: EmpresasComponent },
-  { path: 'historial', component: HistorialComponent },
-
+  //{ path: '', component: LandingComponent },
+  //{ path: 'login', component: LoginComponent },
+  //{ path: 'registro', component: RegistroComponent },
+  //{ path: 'home', component: HomeComponent },
+  //{ path: 'pedidos', component: PedidosComponent },
+  //{ path: 'productos', component: ProductosComponent },
+  //{ path: 'carrito', component: CarritoComponent },
+  //{ path: 'perfil', component: PerfilComponent },
+  //{ path: 'empresas', component: EmpresasComponent },
+  //{ path: 'historial', component: HistorialComponent },
   // para redireccionar a landing
-  { path: '**', redirectTo: '' }
+  //{ path: '**', redirectTo: '' }
 ];
 
 @NgModule({
